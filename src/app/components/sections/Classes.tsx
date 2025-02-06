@@ -116,7 +116,7 @@ export default function Classes() {
           className="mt-16 text-center"
         >
           <p className="text-gray-600 mb-4">
-            Can't find a suitable time? Contact us on WhatsApp for custom arrangements.
+            Can&apos;t find a suitable time? Contact us on WhatsApp for custom arrangements.
           </p>
           <a
             href="https://wa.me/919611265066"

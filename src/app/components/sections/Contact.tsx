@@ -25,7 +25,7 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="subheading max-w-2xl mx-auto"
           >
-            Have questions? We're here to help you on your spiritual journey.
+            Have questions? We&apos;re here to help you on your spiritual journey.
           </motion.p>
         </div>
 
