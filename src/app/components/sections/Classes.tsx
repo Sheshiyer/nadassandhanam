@@ -9,29 +9,29 @@ const classes = [
   {
     name: "Veda Mantras",
     schedule: "Monday & Tuesday",
-    time: "7:00 AM - 8:00 AM",
+    time: "12:30 PM - 1:30 PM",
     mode: "Online & Offline",
     instructor: "Guru Ji",
     icon: CalendarDaysIcon,
-    calLink: "meetshesh/30min",
+    calLink: "nadassandhanam/1hour",
   },
   {
     name: "Sahasranamam",
     schedule: "Monday & Tuesday",
-    time: "6:00 PM - 7:00 PM",
+    time: "7:00 PM - 8:00 PM",
     mode: "Online",
     instructor: "Guru Ji",
     icon: VideoCameraIcon,
-    calLink: "meetshesh/30min",
+    calLink: "nadassandhanam/1hour",
   },
   {
     name: "Youth Special Batch",
     schedule: "Friday & Saturday",
-    time: "5:00 PM - 6:00 PM",
+    time: "7:00 PM - 8:00 PM",
     mode: "Online & Offline",
     instructor: "Guru Ji",
     icon: UserGroupIcon,
-    calLink: "meetshesh/30min",
+    calLink: "nadassandhanam/1hour",
   },
 ];
 
@@ -49,15 +49,20 @@ export default function Classes() {
           >
             Class Schedule
           </motion.h2>
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="subheading max-w-2xl mx-auto"
+            className="space-y-4"
           >
-            Choose from our flexible schedule of online and offline classes.
-          </motion.p>
+            <p className="subheading max-w-2xl mx-auto">
+              Choose from our flexible schedule of online and offline classes.
+            </p>
+            <p className="text-lg font-semibold text-saffron">
+              Fees: Rs.1000/- per month (8 sessions)
+            </p>
+          </motion.div>
         </div>
 
         <motion.div

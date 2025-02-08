@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Image from "next/image";
 import BookingButton from "../BookingButton";
 
 const navigation = [
@@ -20,8 +21,15 @@ export default function Header() {
     <header className="fixed inset-x-0 top-0 z-50 bg-white/80 backdrop-blur-md">
       <nav className="container flex items-center justify-between py-4" aria-label="Global">
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <span className="font-cinzel text-2xl font-bold text-indigo">Nadassandhanam</span>
+          <Link href="/" className="-m-1.5 p-1.5 flex items-center">
+            <Image
+              src="/media/logo.png"
+              alt="Nadassandhanam"
+              width={180}
+              height={40}
+              className="h-10 w-auto"
+            />
+            <span className="sr-only">Nadassandhanam</span>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -53,8 +61,15 @@ export default function Header() {
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link href="/" className="-m-1.5 p-1.5">
-              <span className="font-cinzel text-xl font-bold text-indigo">Nadassandhanam</span>
+            <Link href="/" className="-m-1.5 p-1.5 flex items-center">
+              <Image
+                src="/media/logo.png"
+                alt="Nadassandhanam"
+                width={140}
+                height={32}
+                className="h-8 w-auto"
+              />
+              <span className="sr-only">Nadassandhanam</span>
             </Link>
             <button
               type="button"

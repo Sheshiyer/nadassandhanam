@@ -10,7 +10,7 @@ interface BookingButtonProps {
 }
 
 export default function BookingButton({ 
-  calLink = "meetshesh/30min",
+  calLink = "nadassandhanam/1hour",
   className = "btn btn-primary",
   children = "Book a Class"
 }: BookingButtonProps) {
