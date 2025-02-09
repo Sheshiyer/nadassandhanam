@@ -7,21 +7,12 @@ import BookingButton from "../BookingButton";
 
 const classes = [
   {
-    name: "Veda Mantras",
+    name: "Veda Mantras & Sahasranamam",
     schedule: "Monday & Tuesday",
-    time: "12:30 PM - 1:30 PM",
+    time: "12:30 PM - 1:30 PM / 7:00 PM - 8:00 PM",
     mode: "Online & Offline",
     instructor: "Guru Ji",
     icon: CalendarDaysIcon,
-    calLink: "nadassandhanam/1hour",
-  },
-  {
-    name: "Sahasranamam",
-    schedule: "Monday & Tuesday",
-    time: "7:00 PM - 8:00 PM",
-    mode: "Online",
-    instructor: "Guru Ji",
-    icon: VideoCameraIcon,
     calLink: "nadassandhanam/1hour",
   },
   {
